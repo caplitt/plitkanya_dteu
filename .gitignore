@@ -1,1 +1,21 @@
+# Віртуальне середовище
+venv/
+env/
+
+# Python кеш
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Системні файли
+.DS_Store
+*.swp
+
+# Секрети і база даних
 .env
+messages.db
+
+# IDE налаштування
+.vscode/
+.idea/
